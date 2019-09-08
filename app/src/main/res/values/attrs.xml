@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="PasswordInputView">
+    <attr name="password_length" format="integer" />
+    <attr name="point_radius" format="dimension" />
+    <attr name="stroke_color" format="color" />
+    <attr name="divide_line_color" format="color" />
+    <attr name="point_color" format="color" />
+    <attr name="corner_radius" format="dimension" />
+    <attr name="stroke_width" format="dimension" />
+  </declare-styleable>
+</resources>

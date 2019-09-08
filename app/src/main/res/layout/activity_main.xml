@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#f2f2f4"
+  android:gravity="center_horizontal"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:text="请输入密码"
+    android:textSize="18sp" />
+
+  <com.wenchao.passwordinputview.PasswordInputView
+    android:id="@+id/et_password"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/white"
+    android:inputType="number"
+    app:corner_radius="5dp"
+    app:divide_line_color="@color/colorPrimaryDark"
+    app:password_length="6"
+    app:point_color="@color/colorAccent"
+    app:point_radius="5dp"
+    app:stroke_color="@color/colorPrimaryDark"
+    app:stroke_width="1dp" />
+
+</LinearLayout>
